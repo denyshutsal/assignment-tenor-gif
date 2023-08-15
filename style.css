@@ -1,0 +1,31 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.result {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#request {
+  flex-grow: 10;
+}
+
+#submitBtn {
+  flex-grow: 1;
+}
