@@ -8,7 +8,7 @@ submitBtn.addEventListener("click", function () {
   let category = document.querySelector("#request").value;
 
   // generate the GET path
-  let theUrl = `https://tenor.googleapis.com/v2/search?q=${category}&key=AIzaSyBGUHHiyot0-s8h8GF3TSjziKRVvaztpaM&client_key=Test&limit=8`;
+  let theUrl = `https://tenor.googleapis.com/v2/search?q=${category}&key=API_KEY&client_key=Test&limit=8`;
 
   httpGetAsync(theUrl);
 });
